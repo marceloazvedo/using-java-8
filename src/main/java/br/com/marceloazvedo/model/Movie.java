@@ -1,4 +1,4 @@
-package br.com.marceloazvedo.domain;
+package br.com.marceloazvedo.model;
 
 public class Movie {
 
@@ -28,6 +28,10 @@ public class Movie {
 
     public void setGenres(String genres) {
         this.genres = genres;
+    }
+
+    public String[] getGenresAsArray() {
+        return genres.split("\\|");
     }
 
     @Override

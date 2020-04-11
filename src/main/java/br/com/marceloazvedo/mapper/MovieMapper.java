@@ -1,6 +1,6 @@
 package br.com.marceloazvedo.mapper;
 
-import br.com.marceloazvedo.domain.Movie;
+import br.com.marceloazvedo.model.Movie;
 import br.com.marceloazvedo.mapper.generic.GenericMapper;
 
 import java.util.List;

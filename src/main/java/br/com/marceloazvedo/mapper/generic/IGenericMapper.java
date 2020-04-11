@@ -1,9 +1,9 @@
 package br.com.marceloazvedo.mapper.generic;
 
-import java.lang.reflect.InvocationTargetException;
+import br.com.marceloazvedo.exception.MapperException;
 
 public interface IGenericMapper<T> {
 
-    T map(String[] t) throws Exception;
+    T map(String[] t) throws MapperException;
 
 }
