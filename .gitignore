@@ -1,0 +1,13 @@
+# Maven
+log/
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij IDEA
+expo-server-sdk.iml
+.idea/
+.target
