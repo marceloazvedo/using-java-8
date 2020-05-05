@@ -6,6 +6,15 @@ public class Movie {
     private String title;
     private String genres;
 
+    public Movie(Long movieId, String title, String genres) {
+        this.movieId = movieId;
+        this.title = title;
+        this.genres = genres;
+    }
+
+    public Movie() {
+    }
+
     public Long getMovieId() {
         return movieId;
     }
